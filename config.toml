@@ -1,15 +1,15 @@
-baseURL = 'http://example.org/'
+baseURL = '.'
 languageCode = 'en-us'
-title = 'Site'
+title = 'imalasong'
 theme = ["JuiceBar"]
+paginate = 3
 
 [params]
 author = "imalasong"
-description = "ahaaaa"
-authorImage = "/static/a.jpeg"
-paginate = 5 
-Title = "aaaaa"
-content = "I'm JuiceBar, nice to meet you(ˊ˘ˋ*)♡"
+description = "这个B班不上也罢"
+authorImage = "/images/avatar.jpg"
+Title = "imalasong"
+content = "nice to meet you(ˊ˘ˋ*)♡"
 imageUrl = "/images/avatar.jpg"
 
 # To add a new social icon 
@@ -18,11 +18,11 @@ imageUrl = "/images/avatar.jpg"
 name = "Github"
 url = "https://github.com/imalasong"
 [[params.social]]
-name = "Gitee"
+name = "gitee"
 url = "https://gitee.com/imalasong"
 [[params.social]]
 name = "stackoverflow"
-url = "your_url"
+url = "https://stackoverflow.com/users/22345941/imalasong"
 
 [taxonomies]
 category = "categories"
@@ -34,23 +34,23 @@ name = "About"
 url = "/about"
 [[menu.main]]
 name = "Blog"
-url = "/content/posts"
+url = "/post"
 [[menu.main]]
 name = "Categories"
 url = "/categories"
 
 # If using the giscus commenting system
-#[params.giscus]
-#repo = "ENTER REPO HERE"
-#repoID = "ENTER REPO ID HERE"
-#category = "ENTER CATEGORY NAME HERE"
-#categoryID = "ENTER CATEGORY ID HERE"
-#mapping = "og:title"
-#reactionsEnabled = "1"
-#emitMetadata = "0"
-#inputPosition = "bottom"
-#lang = "en"
-#loading = "lazy"
+[params.giscus]
+repo = "imalasong/imalasong.github.io"
+repoID = "R_kgDOKD5Q7Q"
+category = "Comments"
+categoryID = "DIC_kwDOKD5Q7c4CYYGu"
+mapping = "og:title"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+lang = "en"
+loading = "lazy"
 
 # Used for outputting the documentation (required).
 [outputs]

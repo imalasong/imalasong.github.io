@@ -1,16 +1,16 @@
-baseURL = 'http://example.org/'
+baseURL = '.'
 languageCode = 'en-us'
 title = 'Site'
 theme = ["JuiceBar"]
-
+Paginate = 5
 [params]
 author = "imalasong"
 description = "ahaaaa"
-authorImage = "/static/a.jpeg"
-paginate = 5 
+authorImage = "/static/images/imalasong.png"
+
 Title = "aaaaa"
 content = "I'm JuiceBar, nice to meet you(ˊ˘ˋ*)♡"
-imageUrl = "/images/avatar.jpg"
+imageUrl = "/static/images/R-C.jpg"
 
 # To add a new social icon 
 # More social icons can be found in JuiceBar\layouts\partials\svg.html.
@@ -34,23 +34,23 @@ name = "About"
 url = "/about"
 [[menu.main]]
 name = "Blog"
-url = "/content/posts"
+url = "/post"
 [[menu.main]]
 name = "Categories"
 url = "/categories"
 
 # If using the giscus commenting system
-#[params.giscus]
-#repo = "ENTER REPO HERE"
-#repoID = "ENTER REPO ID HERE"
-#category = "ENTER CATEGORY NAME HERE"
-#categoryID = "ENTER CATEGORY ID HERE"
-#mapping = "og:title"
-#reactionsEnabled = "1"
-#emitMetadata = "0"
-#inputPosition = "bottom"
-#lang = "en"
-#loading = "lazy"
+[params.giscus]
+repo = "imalasong/imalasong.github.io"
+repoID = "R_kgDOKD5Q7Q"
+category = "Comments"
+categoryID = "DIC_kwDOKD5Q7c4CYYGu"
+mapping = "og:title"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+lang = "en"
+loading = "lazy"
 
 # Used for outputting the documentation (required).
 [outputs]
