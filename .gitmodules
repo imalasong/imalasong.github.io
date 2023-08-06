@@ -7,6 +7,3 @@
 [submodule "themes/paper"]
 	path = themes/paper
 	url = https://github.com/nanxiaobei/hugo-paper
-[submodule "themes/JuiceBar"]
-	path = themes/JuiceBar
-	url = https://github.com/hotjuicew/hugo-JuiceBar.git
