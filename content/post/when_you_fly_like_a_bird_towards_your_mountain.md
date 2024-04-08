@@ -1,5 +1,5 @@
 ---
-title: "When You Fly Like a Bird Towards Your Mountain" Reflections"
+title: "《When You Fly Like a Bird Towards Your Mountain》 Reflections"
 date: 2023-08-06T8:11:12+08:00
 categories: ['growth']
 ---
